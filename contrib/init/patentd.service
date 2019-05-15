@@ -1,0 +1,26 @@
+[Unit]
+Description=PATENT's distributed currency daemon
+After=network.target
+
+[Service]
+User=patent
+Group=patent
+
+Type=forking
+PIDFile=/var/lib/patentd/patentd.pid
+
+ExecStart=/usr/bin/patentd -daemon -pid=/var/lib/patentd/patentd.pid \
+          -conf=/etc/patent/patent.conf -datadir=/var/lib/patentd
+
+ExecStop=-/usr/bin/patent-cli -conf=/etc/patent/patent.conf \
+         -datadir=/var/lib/patentd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

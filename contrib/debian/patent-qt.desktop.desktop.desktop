@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PATENT
+Comment=PATENT P2P Cryptocurrency
+Exec=patent-qt %u
+Terminal=false
+Type=Application
+Icon=patent128
+MimeType=x-scheme-handler/patent;
+Categories=Office;Finance;
+Name[en_US]=patent-qt.desktop.desktop

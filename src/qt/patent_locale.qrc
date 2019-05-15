@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/patent_bg.qm</file>
+        <file alias="de">locale/patent_de.qm</file>
+        <file alias="en">locale/patent_en.qm</file>
+        <file alias="es">locale/patent_es.qm</file>
+        <file alias="fi">locale/patent_fi.qm</file>
+        <file alias="fr">locale/patent_fr.qm</file>
+        <file alias="it">locale/patent_it.qm</file>
+        <file alias="ja">locale/patent_ja.qm</file>
+        <file alias="pl">locale/patent_pl.qm</file>
+        <file alias="pt">locale/patent_pt.qm</file>
+        <file alias="ru">locale/patent_ru.qm</file>
+        <file alias="sk">locale/patent_sk.qm</file>
+        <file alias="sv">locale/patent_sv.qm</file>
+        <file alias="vi">locale/patent_vi.qm</file>
+        <file alias="zh_CN">locale/patent_zh_CN.qm</file>
+        <file alias="zh_TW">locale/patent_zh_TW.qm</file>
+    </qresource>
+</RCC>
